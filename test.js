@@ -1,7 +1,21 @@
-function test2 () {
-    return "Branch N1"
+// function test2 () {
+//     return "Branch N1"
+// }
+
+// function test('should ', async () => {
+    
+// })
+// branch TEST3
+
+function factorial(n) {
+    if (n==0) {
+        return -1
+    }
+    else if (n==1) {
+        return 1
+    } else {
+        return n * factorial(n-1);
+    }
 }
 
-function test('should ', async () => {
-    
-})
+console.log(factorial(5));
